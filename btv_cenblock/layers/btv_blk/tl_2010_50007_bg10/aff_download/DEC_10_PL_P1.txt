@@ -1,0 +1,15 @@
+P1
+RACE
+
+Universe: Total population
+
+NOTE: For information on confidentiality protection, nonsampling error, and definitions, see http://www.census.gov/prod/cen2010/pl94-171.pdf
+
+
+				NOTE: Change to the 
+				California,Connecticut,Mississippi,New Hampshire,Virginia, and
+				Washington P. L. 94-171 Summary Files as delivered.
+			
+
+Source: U.S. Census Bureau, 2010 Census.
+

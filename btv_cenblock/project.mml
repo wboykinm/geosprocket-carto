@@ -1,0 +1,56 @@
+{
+  "bounds": [
+    -73.4189,
+    44.3572,
+    -73.0151,
+    44.5973
+  ],
+  "center": [
+    -73.217,
+    44.4867,
+    10
+  ],
+  "format": "png",
+  "interactivity": {
+    "layer": "btv_blk",
+    "template_teaser": "<strong>{{{NAME10}}}</strong><br />\nTotal 2010 Population: {{{D001}}}<br />\n<img src=\"http://chart.apis.google.com/chart?chs=230x200&cht=p3&chco=A6CEE3|1F78B4|B2DF8A|33A02C|FB9A99|E31A1C|FDBF6F&chd=t:{{{D003}}},{{{D004}}},{{{D005}}},{{{D006}}},{{{D007}}},{{{D009}}},{{{D008}}}&chdl=White|Black|American+Indian|Asian|Hawaiian%2FPacific+Native|Mixed+Race|Other&chdlp=b&chp=2&chl={{{D003}}}|{{{D004}}}|{{{D005}}}|{{{D006}}}|{{{D007}}}|{{{D009}}}|{{{D008}}}&chma=5,5,10,5|5\" width=\"240\" height=\"200\" alt=\"\" />",
+    "template_full": "<strong>{{{NAME10}}}</strong><br />\nTotal 2010 Population: {{{D001}}}<br />\n<img src=\"http://chart.apis.google.com/chart?chs=230x200&cht=p3&chco=A6CEE3|1F78B4|B2DF8A|33A02C|FB9A99|E31A1C|FDBF6F&chd=t:{{{D003}}},{{{D004}}},{{{D005}}},{{{D006}}},{{{D007}}},{{{D009}}},{{{D008}}}&chdl=White|Black|American+Indian|Asian|Hawaiian%2FPacific+Native|Mixed+Race|Other&chdlp=b&chp=2&chl={{{D003}}}|{{{D004}}}|{{{D005}}}|{{{D006}}}|{{{D007}}}|{{{D009}}}|{{{D008}}}&chma=5,5,10,5|5\" width=\"240\" height=\"200\" alt=\"\" />"
+  },
+  "minzoom": 6,
+  "maxzoom": 18,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss",
+    "labels"
+  ],
+  "Layer": [
+    {
+      "id": "countries",
+      "name": "countries",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "geometry": "polygon",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-0-countries.zip",
+        "type": "shape"
+      }
+    },
+    {
+      "geometry": "polygon",
+      "id": "btv_blk",
+      "class": "poly",
+      "Datasource": {
+        "file": "\\Users\\Owner\\Dropbox\\Consulting\\btv\\redistricting\\census\\blocks_2010_btvmetro.zip",
+        "id": "btv_blk",
+        "project": "btv_cenblock",
+        "srs": null
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "name": "btv_blk"
+    }
+  ],
+  "name": "2010 Census Blocks for BTV",
+  "description": "",
+  "attribution": "U.S. Census Bureau, 2010",
+  "legend": ""
+}
