@@ -1,0 +1,107 @@
+{
+  "bounds": [
+    -180,
+    -85.0511,
+    180,
+    85.0511
+  ],
+  "center": [
+    -73.6853,
+    45.5102,
+    9
+  ],
+  "format": "png",
+  "interactivity": false,
+  "minzoom": 9,
+  "maxzoom": 17,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss",
+    "labels.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "polygon",
+      "id": "roi",
+      "class": "boundary",
+      "Datasource": {
+        "file": "\\Users\\William Morris\\Dropbox\\Consulting\\city_basemaps\\mtl\\mtl_wm\\mtl_roi.shp"
+      },
+      "srs-name": "900913",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "name": "roi"
+    },
+    {
+      "geometry": "polygon",
+      "id": "roi2",
+      "class": "",
+      "Datasource": {
+        "file": "\\Users\\William Morris\\Dropbox\\Consulting\\city_basemaps\\mtl\\mtl_wm\\mtl_roi.shp"
+      },
+      "srs-name": "900913",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "name": "roi2"
+    },
+    {
+      "geometry": "polygon",
+      "id": "roi1",
+      "class": "inner",
+      "Datasource": {
+        "file": "\\Users\\William Morris\\Dropbox\\Consulting\\city_basemaps\\mtl\\mtl_wm\\mtl_roi.shp"
+      },
+      "srs-name": "900913",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "name": "roi1"
+    },
+    {
+      "geometry": "polygon",
+      "id": "osm_poly",
+      "class": "poly",
+      "Datasource": {
+        "file": "\\Users\\William Morris\\Dropbox\\Consulting\\city_basemaps\\mtl\\mtl_wm\\mtl_osm_poly1.shp"
+      },
+      "srs-name": "900913",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "name": "osm_poly"
+    },
+    {
+      "geometry": "multipolygon",
+      "id": "mtl_land",
+      "class": "",
+      "Datasource": {
+        "file": "\\Users\\William Morris\\Dropbox\\Consulting\\city_basemaps\\mtl\\mtl_wm\\mtl_land.shp"
+      },
+      "srs-name": "900913",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "name": "mtl_land"
+    },
+    {
+      "geometry": "linestring",
+      "id": "osm_line",
+      "class": "",
+      "Datasource": {
+        "file": "\\Users\\William Morris\\Dropbox\\Consulting\\city_basemaps\\mtl\\mtl_wm\\mtl_osm_line1.shp",
+        "id": "osm_line",
+        "project": "mtl_nightvision",
+        "srs": null
+      },
+      "srs-name": "900913",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "name": "osm_line"
+    },
+    {
+      "geometry": "linestring",
+      "id": "osm_labels",
+      "class": "",
+      "Datasource": {
+        "file": "\\Users\\William Morris\\Dropbox\\Consulting\\city_basemaps\\mtl\\mtl_wm\\mtl_osm_line1.shp"
+      },
+      "srs-name": "900913",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "name": "osm_labels"
+    }
+  ],
+  "name": "Montreal Nightvision Base",
+  "description": "",
+  "attribution": ""
+}
