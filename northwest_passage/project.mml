@@ -1,0 +1,185 @@
+{
+  "bounds": [
+    -49.2188,
+    -44.3396,
+    49.7461,
+    44.2137
+  ],
+  "center": [
+    0,
+    0,
+    2
+  ],
+  "format": "png",
+  "interactivity": false,
+  "minzoom": 0,
+  "maxzoom": 9,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "polygon",
+      "extent": [
+        -48.66651685247694,
+        -43.5540889772344,
+        48.54930758294992,
+        43.74053547769503
+      ],
+      "id": "coast",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/wboykinm/Dropbox/Consulting/Testing/arctic/cp_coast_la_shp/cp_coast_la.shp",
+        "id": "coast",
+        "project": "antarctic",
+        "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over"
+      },
+      "srs-name": "900913",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "advanced": {},
+      "name": "coast",
+      "status": "off"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -78.13593694078881,
+        -51.74462642178441,
+        82.8724917349304,
+        58.77677123634426
+      ],
+      "id": "countries",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/wboykinm/Dropbox/Consulting/Testing/arctic/countries.shp"
+      },
+      "srs-name": "900913",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "advanced": {},
+      "name": "countries"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -24.495376336887116,
+        -28.94272873258737,
+        37.541135051543186,
+        28.70050875399744
+      ],
+      "id": "ice",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/wboykinm/Dropbox/Consulting/Testing/arctic/extent_N_201307_polygon/extent_jul13.shp"
+      },
+      "srs-name": "900913",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "advanced": {},
+      "name": "ice"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -22.102845108851984,
+        -28.336790663927456,
+        33.23180058440881,
+        22.61445092964222
+      ],
+      "id": "vegetation",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/wboykinm/Dropbox/Consulting/Testing/arctic/cp_veg_la_shp/cp_veg_la.shp",
+        "id": "vegetation",
+        "project": "antarctic",
+        "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over"
+      },
+      "srs-name": "900913",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "advanced": {},
+      "name": "vegetation"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -47.83465672477062,
+        -36.000433806330314,
+        24.156805238512916,
+        36.62310345496029
+      ],
+      "id": "passages_fakeout",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/wboykinm/Dropbox/Consulting/Testing/arctic/passages.shp"
+      },
+      "srs-name": "900913",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "advanced": {},
+      "name": "passages_fakeout"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -47.789828529425165,
+        -35.444496265137424,
+        47.85407110730905,
+        42.11935449907223
+      ],
+      "id": "popplaces",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/wboykinm/Dropbox/Consulting/Testing/arctic/popplaces1.shp",
+        "id": "popplaces",
+        "project": "antarctic",
+        "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over"
+      },
+      "srs-name": "900913",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "advanced": {},
+      "name": "popplaces"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -22.49470418008502,
+        -35.76190246561954,
+        65.1947959862162,
+        62.374405623811406
+      ],
+      "id": "marine",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/wboykinm/Dropbox/Consulting/Testing/arctic/marine.shp",
+        "id": "marine",
+        "project": "antarctic",
+        "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over"
+      },
+      "srs-name": "900913",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "advanced": {},
+      "name": "marine"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -107.79783552033635,
+        -72.67052502370986,
+        107.79783266834879,
+        72.67482730584302
+      ],
+      "id": "mask6",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/wboykinm/Dropbox/Consulting/Testing/arctic/mask6.shp"
+      },
+      "srs-name": "900913",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "advanced": {},
+      "name": "mask6"
+    }
+  ],
+  "scale": 1,
+  "metatile": 15,
+  "name": "northwest-northeast passage",
+  "description": "",
+  "attribution": ""
+}
