@@ -1,0 +1,77 @@
+{
+  "bounds": [
+    -113.3789,
+    35.4249,
+    -106.6552,
+    42.0493
+  ],
+  "center": [
+    -109.7314,
+    39.0106,
+    6
+  ],
+  "format": "png",
+  "interactivity": false,
+  "minzoom": 0,
+  "maxzoom": 14,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss",
+    "stylescratch"
+  ],
+  "Layer": [
+    {
+      "geometry": "linestring",
+      "extent": [
+        -176.76400847314395,
+        14.590750676565007,
+        -52.64725244187385,
+        70.2966838677457
+      ],
+      "id": "roads",
+      "class": "",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-roads-north-america.zip"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "roads",
+      "status": "off"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -113.00055555424755,
+        35.99944444355482,
+        -106.99944444311001,
+        42.00055555469237
+      ],
+      "id": "elev",
+      "class": "",
+      "Datasource": {
+        "file": "f:\\processing\\arches\\arches5.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "elev"
+    },
+    {
+      "id": "countries",
+      "name": "countries",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "geometry": "polygon",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-0-countries.zip",
+        "type": "shape"
+      }
+    }
+  ],
+  "scale": 1,
+  "metatile": 6,
+  "_basemap": "",
+  "name": "Arches Elevation",
+  "description": "",
+  "attribution": ""
+}

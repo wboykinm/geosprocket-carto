@@ -1,0 +1,114 @@
+{
+  "bounds": [
+    -73.2979,
+    44.4325,
+    -73.1643,
+    44.5377
+  ],
+  "center": [
+    -73.221,
+    44.482,
+    14
+  ],
+  "format": "png",
+  "interactivity": false,
+  "minzoom": 8,
+  "maxzoom": 17,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "id": "countries",
+      "name": "countries",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "geometry": "polygon",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-0-countries.zip",
+        "type": "shape"
+      }
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -73.47518618620796,
+        42.72516269243011,
+        -71.46467478912125,
+        45.0841803161053
+      ],
+      "id": "water",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Users\\William Morris\\Dropbox\\Public\\Geosprocket_Share\\basedata\\VHD_Carto.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "water"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -73.4751583746022,
+        43.538680651426525,
+        -73.07595575974118,
+        45.08453742496978
+      ],
+      "id": "lake",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Users\\William Morris\\Dropbox\\Public\\Geosprocket_Share\\basedata\\champlain.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "lake"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -73.27687992346522,
+        44.440392541159426,
+        -73.17791666086408,
+        44.53025523523737
+      ],
+      "id": "prints",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Users\\William Morris\\Dropbox\\Consulting\\probono\\btv\\prints\\btv_prints\\osm_hosted\\building_polygon.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "prints"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -73.28715683493934,
+        44.44067836024327,
+        -73.11834054551748,
+        44.54551038809496
+      ],
+      "id": "rds",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Users\\William Morris\\Dropbox\\Public\\Geosprocket_Share\\basedata\\EMERGENCY_RDS_LINE.shp",
+        "id": "rds",
+        "project": "btv_blueprints",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "rds"
+    }
+  ],
+  "scale": 1,
+  "metatile": 6,
+  "_basemap": "",
+  "name": "btv blueprints",
+  "description": "",
+  "attribution": ""
+}

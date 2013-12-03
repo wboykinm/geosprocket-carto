@@ -1,0 +1,80 @@
+{
+  "bounds": [
+    -143.0859,
+    -42.8115,
+    71.0156,
+    61.1008
+  ],
+  "center": [
+    -60.4688,
+    1.7575,
+    2
+  ],
+  "format": "png",
+  "interactivity": {},
+  "minzoom": 0,
+  "maxzoom": 22,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "id": "countries",
+      "name": "countries",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "geometry": "polygon",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-0-countries.zip",
+        "type": "shape"
+      }
+    },
+    {
+      "geometry": "raster",
+      "extent": [
+        -179.995833333333,
+        -85.051,
+        180,
+        85.051
+      ],
+      "id": "mod12q1",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Users\\William Morris\\Documents\\IGBP1.tif"
+      },
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
+      "advanced": {},
+      "name": "mod12q1",
+      "status": "off"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -179.9999886009931,
+        -60.77456780366123,
+        179.9999886002936,
+        78.10952786521875
+      ],
+      "id": "ecoregions",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Users\\William Morris\\Dropbox\\UVM\\Dissertation\\Ecoregions\\EcoGWR_hclust_102411d.shp",
+        "id": "ecoregions",
+        "project": "MODIS",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "ecoregions"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "_basemap": "",
+  "name": "MODIS Land Cover",
+  "description": "",
+  "attribution": "",
+  "legend": "<!--<div class='my-legend'>\n<div class='legend-title'>Pseudo-T Significance: Cropland Cover</div>\n<div class='legend-scale'>\n  <ul class='legend-labels'>\n    <li><span style='background:#333;'></span>Negatively Significant</li>\n    <li><span style='background:#888;'></span>Positively Significant</li>\n  </ul>\n</div>\n<style type='text/css'>\n  .wax-legend .legend-title {\n    text-align: left;\n    margin-bottom: 5px;\n    font-weight: bold;\n    font-size: 90%;\n    }\n  .wax-legend .legend-scale ul {\n    margin: 0;\n    margin-bottom: 5px;\n    padding: 0;\n    float: left;\n    list-style: none;\n    }\n  .wax-legend .legend-scale ul li {\n    font-size: 80%;\n    list-style: none;\n    margin-left: 0;\n    line-height: 18px;\n    margin-bottom: 2px;\n    }\n  .wax-legend ul.legend-labels li span {\n    display: block;\n    float: left;\n    height: 20px;\n    width: 40px;\n    margin-right: 5px;\n    margin-left: 0;\n    border: 0.5px solid #555;\n    -webkit-border-radius: 5px;\n    -moz-border-radius: 5px;\n    border-radius: 5px;\n    }\n  .wax-legend .legend-source {\n    font-size: 70%;\n    color: #999;\n    clear: both;\n    }\n  .wax-legend a {\n    color: #777;\n    }\n</style>-->"
+}

@@ -1,0 +1,93 @@
+{
+  "bounds": [
+    -78.2666,
+    39.6903,
+    -66.687,
+    47.4727
+  ],
+  "center": [
+    -72.2241,
+    43.644,
+    6
+  ],
+  "format": "png",
+  "interactivity": {
+    "layer": "citytown2",
+    "template_location": "",
+    "template_full": "<h1>{{{name}}}</h1><hr>\nThe word \"{{{label}}}\" appears in {{{labelweight}}}% of {{{name}}}'s documents on Public Post.<br/>\n<em><a href=\"{{{url}}}\" target=\"_blank\">Search {{{name}}} in our database</a></em>",
+    "fields": [
+      "name",
+      "label",
+      "labelweight",
+      "url"
+    ],
+    "template_teaser": "<h1>{{{name}}}</h1><hr>\nThe word \"{{{label}}}\" appears in {{{labelweight}}}% of {{{name}}}'s documents on Public Post.<br/>\n<em><a href=\"{{{url}}}\" target=\"_blank\">Search {{{name}}} in our database</a></em>"
+  },
+  "minzoom": 3,
+  "maxzoom": 12,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "id": "countries",
+      "name": "countries",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "geometry": "polygon",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-0-countries.zip",
+        "type": "shape"
+      },
+      "status": "off"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -73.32692,
+        42.75294,
+        -71.73143,
+        44.98143
+      ],
+      "id": "citytown",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Users\\William Morris\\Dropbox\\Consulting\\vpr\\pubpost_citytown2.csv",
+        "type": "csv",
+        "id": "citytown",
+        "project": "pubpost_typographic",
+        "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"
+      },
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
+      "advanced": {},
+      "name": "citytown",
+      "status": "off"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -73.32692,
+        42.75294,
+        -71.73143,
+        44.98143
+      ],
+      "id": "citytown2",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Users\\William Morris\\Dropbox\\Consulting\\vpr\\pubpost_citytown2.csv"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "citytown2"
+    }
+  ],
+  "scale": 1,
+  "metatile": 6,
+  "_basemap": "landplanner.map-pd5ea4xu",
+  "name": "public post typographic map",
+  "description": "",
+  "attribution": "",
+  "legend": ""
+}
