@@ -4,7 +4,7 @@ Map {
 }
 
 #background {
-    polygon-pattern-file:url(../img/Paper-21.png);
+    polygon-pattern-file:url(Paper-21a.png);
 }
 
 #water {
@@ -13,47 +13,27 @@ Map {
     polygon-comp-op:color-burn;
 }
 
-
-#countries {
-  ::outline {
-    line-color: #797979;
-    line-width: 0.5;
-    line-join: round;
-    line-smooth:5;
-    line-opacity:0.5;
-    /*line-comp-op:multiply;*/
+#land {
+  ::below {
+    line-color:#6676B5;
+    line-width:2;
+    line-smooth:3;
+    line-cap:round;
+    line-join:round;
+    line-opacity:1;
+    image-filters:agg-stack-blur(2,2);
   }
-  polygon-fill: #fff;
-  /*polygon-comp-op:color-burn;*/
-  polygon-pattern-file:url(../img/Paper-21.png);
+  ::above {
+    polygon-pattern-file:url(Paper-21a.png);
+  }
 }
 
-/*#countries [ScaleRank<3]{
-  ::labels {
-    text-name:'[NAME]';
-  	text-face-name:'By People Handwritten Regular';
-  	text-size:18;
- 	text-transform:uppercase;
-  	text-fill:#111;
-    text-character-spacing:2;
-    text-min-distance:50;
-    text-halo-radius:1.5;
-    text-halo-fill:rgba(250,250,250,1);
- 	text-allow-overlap:false;
-    }
-}*/
-
-#popplaces [POP_MAX>1500000] {
-  text-name:'[NAMEASCII]';
-  text-face-name:'By People Handwritten Regular';
-  text-size:20;
-  text-transform:lowercase;
-  text-fill:#666;
-  text-character-spacing:2;
-  text-min-distance:50;
-  text-halo-radius:1.5;
-  text-halo-fill:rgba(250,250,250,0.6);
-  text-allow-overlap:false;
+#countries [zoom>3]{ 
+    line-color: #797979;
+    line-width: 0.2;
+    line-join: round;
+    line-smooth:3;
+    line-opacity:0.5;
 }
 
 #bath {
