@@ -1,0 +1,28 @@
+_prefs: 
+  mapid: landplanner.94bd6902
+  saveCenter: true
+_properties: {}
+attribution: "<a href='http://mapbox.com/about/maps' target='_blank'>Terms & Feedback</a>"
+bounds: 
+  - -180
+  - -85.0511
+  - 180
+  - 85.0511
+center: 
+  - -72.2197
+  - 19.6041
+  - 15
+description: A painstakingly hand-drawn representation of the entire world. 2B graphite on acid-free paper.
+format: "png8:m=h"
+interactivity_layer: ''
+layers: null
+maxzoom: 21
+minzoom: 0
+name: Geosprocket Sketch
+source: "mapbox:///mapbox.mapbox-terrain-v1,mapbox.mapbox-streets-v5,mapbox.mapbox-bathymetry-v1"
+styles: 
+  - style.mss
+  - road.mss
+  - terrain.mss
+  - labels.mss
+template: ''
