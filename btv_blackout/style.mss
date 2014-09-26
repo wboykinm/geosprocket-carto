@@ -159,7 +159,7 @@ Map {
 .road.outline[zoom=17] {
   line-color: #B1F1D2;
   line-opacity: 0.5;
-  line-width: 1.75;
+  line-width: 1.7;
 }
 
 .road.outline[zoom>=18] {
