@@ -1,0 +1,63 @@
+- place_name: Milton, 58260, North Dakota, United States
+  zoom: 8
+  center: 
+    - 48.55479616922359
+    - -97.9705810546875
+  tags: 
+    - userbookmark
+- place_name: Curtis, 69025, Nebraska, United States
+  zoom: 5
+  center: 
+    - 40.79717741518769
+    - -100.45898437499999
+  tags: 
+    - userbookmark
+- place_name: Bayern, Germany
+  zoom: 5
+  center: 
+    - 47.916342040161155
+    - 12.2607421875
+  tags: 
+    - userbookmark
+- place_name: San Francisco, 94112, California, United States
+  zoom: 12
+  center: 
+    - 37.73406859189756
+    - -122.42271423339842
+  tags: 
+    - userbookmark
+- place_name: San Francisco, 94103, California, United States
+  zoom: 16
+  center: 
+    - 37.777380349595894
+    - -122.41048336029053
+  tags: 
+    - userbookmark
+- place_name: San Francisco, 94103, California, United States
+  zoom: 15
+  center: 
+    - 37.77502286117533
+    - -122.40983963012695
+  tags: 
+    - userbookmark
+- place_name: Washington, 20024, District of Columbia, United States
+  zoom: 13
+  center: 
+    - 38.89076560366622
+    - -77.04935073852539
+  tags: 
+    - userbookmark
+- place_name: Washington, 20001, District of Columbia, United States
+  zoom: 13
+  center: 
+    - 38.910403802434544
+    - -77.02463150024414
+  tags: 
+    - userbookmark
+- place_name: Washington, 20005, District of Columbia, United States
+  zoom: 15
+  center: 
+    - 38.90372475251103
+    - -77.03342914581299
+  tags: 
+    - userbookmark

@@ -5,11 +5,11 @@
 // FONTS //
 ////////////////////////////////////////////////
 
-@med: "Prater Script Offc Pro Regular", "Arial Unicode MS Regular";
-@reg: "Prater Script Offc Pro Regular", "Arial Unicode MS Regular";
-@lt: "Prater Script Offc Pro Regular", "Arial Unicode MS Regular";
-@bold: "Prater Script Offc Pro Regular", "Arial Unicode MS Bold";
-@it: "Prater Script Offc Pro Regular", "Arial Unicode MS Regular";
+@med: "Meta Offc Pro Medium", "Arial Unicode MS Regular";
+@reg: "Meta Offc Pro Normal", "Arial Unicode MS Regular";
+@lt: "Meta Offc Pro Light", "Arial Unicode MS Regular";
+@bold: "Meta Offc Pro Bold", "Arial Unicode MS Bold";
+@it: "Meta Offc Pro Normal Italic", "Arial Unicode MS Regular";
 
 ////////////////////////////////////////////////
 // COLORS //
@@ -19,7 +19,7 @@
 @town_text: #777;
 @village_text: #888;
 @neigh_text: #999;
-@halo: #e2e3e3;
+@halo: fadeout(#E9E9E9, 50);
 
 #place_label {
   [type='city'][zoom>=8][zoom<=15][localrank<=2] {
