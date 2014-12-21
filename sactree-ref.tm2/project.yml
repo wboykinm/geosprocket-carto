@@ -1,0 +1,25 @@
+_prefs: 
+  mapid: landplanner.a5aeec7d
+  saveCenter: true
+_properties: {}
+attribution: ''
+bounds: 
+  - -180
+  - -85.0511
+  - 180
+  - 85.0511
+center: 
+  - -121.5034
+  - 38.5885
+  - 14
+description: ''
+format: "png8:m=h"
+interactivity_layer: ''
+layers: null
+maxzoom: 14
+minzoom: 0
+name: Sactree Reference
+source: "mapbox:///mapbox.mapbox-streets-v5"
+styles: 
+  - style.mss
+template: ''

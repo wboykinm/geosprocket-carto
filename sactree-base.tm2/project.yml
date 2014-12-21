@@ -1,0 +1,29 @@
+_prefs: 
+  mapid: landplanner.c0e8d353
+  saveCenter: true
+_properties: 
+  bridge: 
+    "group-by": layer
+attribution: "<a href='https://www.mapbox.com/about/maps/' target='_blank'>&copy; Mapbox &copy; OpenStreetMap</a> <a class='mapbox-improve-map' href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a>"
+bounds: 
+  - -180
+  - -85.0511
+  - 180
+  - 85.0511
+center: 
+  - -121.4926
+  - 38.5736
+  - 14
+description: ''
+format: jpeg95
+interactivity_layer: ''
+layers: null
+maxzoom: 22
+minzoom: 0
+name: Sactree Base
+source: "mapbox:///mapbox.satellite,mapbox.mapbox-streets-v5"
+styles: 
+  - style.mss
+  - road.mss
+  - labels.mss
+template: ''
